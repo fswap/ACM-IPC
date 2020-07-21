@@ -1025,12 +1025,12 @@ th {
 }
 
 .section-title {
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 
 @media (max-width: 991px) {
     .section-title {
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
 }
 
@@ -2932,12 +2932,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .feature-area {
-    padding: 150px 0 120px;
+    padding: 50px 0 120px;
 }
 
 @media (max-width: 991px) {
     .feature-area {
-        padding: 80px 0px;
+        padding: 50px 0px;
     }
 }
 
@@ -4313,15 +4313,16 @@ a {
 }
 
 .pricing-table.recommended .pricing-title {
-    background: #2db3cb;
+    background: #283367;
 }
 
 .pricing-table.recommended .pricing-action {
-    background: #2db3cb;
+    background: #283367;
 }
 
 .pricing-table .price {
     background: #403e3d;
+    color: white;
     font-size: 3.4em;
     font-weight: 700;
     padding: 20px 0;
@@ -4371,7 +4372,7 @@ a {
 
 .table-list li span.unlimited {
     color: #FFF;
-    background: #e95846;
+    background: #283367;
     font-size: 0.9em;
     padding: 5px 7px;
     display: inline-block;
@@ -4407,7 +4408,7 @@ a {
 .table-buy .pricing-action {
     float: right;
     color: #FFF;
-    background: #e95846;
+    background: #283367;
     padding: 8px 14px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -4425,7 +4426,7 @@ a {
 }
 
 .recommended .table-buy .pricing-action:hover {
-    background: #228799;
+    background: #cf4f3e;
 }
 
 
