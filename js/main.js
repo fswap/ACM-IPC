@@ -1,9 +1,12 @@
 $(document).ready(function() {
     "use strict";
     $("html").css("overflowY", "hidden");
+    $(".html").css("display", "none");
     setTimeout(() => {
         $(".container_").css("display", "none");
         $("html").css("overflowY", "scroll");
+        $(".html").css("display", "block");
+
 
     }, 2000);
     var window_width = $(window).width(),
