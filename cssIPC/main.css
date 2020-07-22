@@ -1083,7 +1083,7 @@ th {
 }
 
 #back-top a {
-    background: url(../img/rocket.png) no-repeat;
+    background: url(../imgIPC/rocket.png) no-repeat;
     background-size: 95% 80%;
     width: 50px;
     height: 116px;
@@ -1996,7 +1996,7 @@ h6 {
 }
 
 .primary-checkbox input:checked+label {
-    background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+    background: url(../imgIPC/elements/primary-check.png) no-repeat center center/cover;
     border: none;
 }
 
@@ -2034,7 +2034,7 @@ h6 {
 }
 
 .confirm-checkbox input:checked+label {
-    background: url(../img/elements/success-check.png) no-repeat center center/cover;
+    background: url(../imgIPC/elements/success-check.png) no-repeat center center/cover;
     border: none;
 }
 
@@ -2077,7 +2077,7 @@ h6 {
 }
 
 .disabled-checkbox input:checked+label {
-    background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+    background: url(../imgIPC/elements/disabled-check.png) no-repeat center center/cover;
     border: none;
 }
 
@@ -2115,7 +2115,7 @@ h6 {
 }
 
 .primary-radio input:checked+label {
-    background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+    background: url(../imgIPC/elements/primary-radio.png) no-repeat center center/cover;
     border: none;
 }
 
@@ -2153,7 +2153,7 @@ h6 {
 }
 
 .confirm-radio input:checked+label {
-    background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+    background: url(../imgIPC/elements/success-radio.png) no-repeat center center/cover;
     border: none;
 }
 
@@ -2196,7 +2196,7 @@ h6 {
 }
 
 .disabled-radio input:checked+label {
-    background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+    background: url(../imgIPC/elements/disabled-radio.png) no-repeat center center/cover;
     border: none;
 }
 
@@ -2633,7 +2633,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-banner-area {
-    background: url(../img/header-bg.png) no-repeat top center;
+    background: url(../imgIPC/header-bg.png) no-repeat top center;
     background-size: cover;
 }
 
@@ -2774,7 +2774,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-    background: url(../img/banner-bg.png) no-repeat top center;
+    background: url(../imgIPC/banner-bg.png) no-repeat top center;
     background-size: cover;
     min-height: 512px;
 }
@@ -3252,7 +3252,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*============ Start Blog Home Styles  =============*/
 
 .blog-home-banner {
-    background: url(../img/blog/blog-home-banner.jpg) bottom;
+    background: url(../imgIPC/blog/blog-home-banner.jpg) bottom;
     background-size: cover;
     padding: 130px 0px;
 }
@@ -4243,6 +4243,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+}
+
+@media(min-width:400px) {
+    .footer-area .footer-bottom .footer-social a {
+        width: 45px;
+        height: 45px;
+    }
 }
 
 
