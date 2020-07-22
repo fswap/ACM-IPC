@@ -2358,6 +2358,7 @@ h6 {
 #header #logo img {
     padding: 0;
     margin: 0;
+    width: 200px;
 }
 
 @media (max-width: 768px) {
