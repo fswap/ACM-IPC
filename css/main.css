@@ -4476,7 +4476,7 @@ a {
     left: 0;
     z-index: 10000000000000000;
     background: white;
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
 }
 
@@ -4498,6 +4498,15 @@ a {
     -webkit-filter: drop-shadow( 5px 5px 2px rgba(0, 0, 0, .7));
     filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
     /* Similar syntax to box-shadow */
+}
+
+@media(max-width:359px) {
+    .landing_button1 {
+        margin-left: 15px;
+    }
+    .landing_button2 {
+        margin-top: 20px;
+    }
 }
 
 #logo1 {
